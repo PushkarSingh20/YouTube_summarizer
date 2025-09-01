@@ -69,14 +69,19 @@ pip install -r requirements.txt
 ### 5️⃣ add API key 
 GOOGLE_API_KEY=your_api_key_here
 
+---
 
 ### 6️⃣ run it
 python yt_summarizer.py
+
+---
 
 ## why this shit?  
 - youtube videos are too damn long
 - chatgpt can summarize but → copying transcripts is pain
 - so yeah, flask + gemini + transcripts = problem kinda solved 
+
+---
 
 ## LICENSE📜
 fork it, star it, deploy it, even break it.
