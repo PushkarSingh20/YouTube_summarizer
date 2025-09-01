@@ -48,34 +48,6 @@
 
 ---
 
-## 🚀 setup (run at ur own risk)  
-
-### 1️⃣ clone repo  
-```bash
-git clone https://github.com/YOUR_USERNAME/youtube-summarizer.git
-cd youtube-summarizer
-
-### 2️⃣ create venv
-python -m venv venv
-
-### 3️⃣ activate venv 
-# windows
-venv\Scripts\activate  
-
-### 4️⃣ install deps
-pip install -r requirements.txt
-
-
-### 5️⃣ add API key 
-GOOGLE_API_KEY=your_api_key_here
-
----
-
-### 6️⃣ run it
-python yt_summarizer.py
-
----
-
 ## why this shit?  
 - youtube videos are too damn long
 - chatgpt can summarize but → copying transcripts is pain
@@ -86,3 +58,35 @@ python yt_summarizer.py
 ## LICENSE📜
 fork it, star it, deploy it, even break it.
 But give me some money, I'm a broke programmer 🥲😭
+
+---
+
+## 🚀 setup (run at ur own risk)  
+
+### 1️⃣ clone repo  
+```bash
+git clone https://github.com/YOUR_USERNAME/youtube-summarizer.git
+cd youtube-summarizer
+
+### 2️⃣ create venv
+```bash
+python -m venv venv
+
+### 3️⃣ activate venv
+```bash
+# windows
+venv\Scripts\activate  
+
+### 4️⃣ install deps
+```bash
+pip install -r requirements.txt
+
+
+### 5️⃣ add API key
+```bash
+GOOGLE_API_KEY=your_api_key_here
+
+### 6️⃣ run it
+```bash
+python yt_summarizer.py
+
