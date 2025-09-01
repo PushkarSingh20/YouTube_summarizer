@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Summarizer</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="youtube-icon"></div>
+            <h1>YouTube Summarizer</h1>
+            <p>Get AI-powered summaries of any YouTube video in seconds</p>
+        </div>
+
+        <div class="feature-list">
+            <div class="feature-item">
+                <strong>🎯 Key Points</strong><br>
+                Extract main ideas
+            </div>
+            <div class="feature-item">
+                <strong>⚡ Fast</strong><br>
+                Instant summaries
+            </div>
+            <div class="feature-item">
+                <strong>🤖 AI-Powered</strong><br>
+                Google Gemini Pro
+            </div>
+        </div>
+
+        <div class="input-section">
+            <form id="summarizerForm">
+                <div class="input-group">
+                    <label for="videoUrl">YouTube Video URL</label>
+                    <input 
+                        type="url" 
+                        id="videoUrl" 
+                        name="videoUrl" 
+                        placeholder="https://www.youtube.com/watch?v=..."
+                        required
+                    />
+                </div>
+                <button type="submit" class="btn-primary" id="submitBtn">
+                    <span id="btnText">Generate Summary</span>
+                </button>
+            </form>
+        </div>
+
+        <div class="loading" id="loading">
+            <div class="spinner"></div>
+            <p>Analyzing video and generating summary...</p>
+        </div>
+
+        <div class="error" id="error"></div>
+
+        <div class="results" id="results">
+            <div class="video-info" id="videoInfo">
+                <div class="video-title" id="videoTitle">Video Title</div>
+                <div class="video-meta" id="videoMeta">Processing video information...</div>
+            </div>
+
+            <div class="summary-card">
+                <div class="summary-header">
+                    <div class="summary-icon"></div>
+                    <div class="summary-title">AI Summary</div>
+                </div>
+                <div class="summary-content" id="summaryContent">
+                    Your video summary will appear here...
+                </div>
+            </div>
+        </div>
+
+        <div class="demo-section">
+            <h3 style="text-align: center; color: #2c3e50; margin-bottom: 15px;">How it works</h3>
+            <div class="demo-video">
+                <p><strong>1.</strong> Paste any YouTube video URL above</p>
+                <p><strong>2.</strong> Our AI extracts the transcript and analyzes the content</p>
+                <p><strong>3.</strong> Get a concise summary with key points in under 250 words</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
