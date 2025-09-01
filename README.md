@@ -16,7 +16,8 @@
 - [![Flask](https://skillicons.dev/icons?i=flask)](https://flask.palletsprojects.com/) → flask (lightweight backend, still does the job)  
 - [![HTML](https://skillicons.dev/icons?i=html)]() [![CSS](https://skillicons.dev/icons?i=css)]() [![JS](https://skillicons.dev/icons?i=js)]() → the frontend trio (basic but enough)  
 - [![Google](https://skillicons.dev/icons?i=googlecloud)](https://ai.google/) → gemini-pro (brain behind summaries)  
-- [![Redis](https://skillicons.dev/icons?i=github)](https://github.com/jdepoix/youtube-transcript-api) → youtube-transcript-api (grabs video subs, when available)  
+- [![YouTube](https://skillicons.dev/icons?i=youtube)](https://github.com/jdepoix/youtube-transcript-api) → youtube-transcript-api (grabs video subtitles, when available)  
+
 
 ---
 
